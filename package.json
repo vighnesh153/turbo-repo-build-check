@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.9.3"
+  },
+  "name": "turbo-practice",
+  "packageManager": "npm@9.5.1",
+  "workspaces": [
+    "apps/*"
+  ]
+}
